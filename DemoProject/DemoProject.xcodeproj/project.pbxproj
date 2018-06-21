@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C0E09D220DA4E7300462DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0E09D120DA4E7300462DDA /* Assets.xcassets */; };
 		8C11885320D931C7008B970D /* ClanOffc_WideMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C11884B20D931C6008B970D /* ClanOffc_WideMedium.ttf */; };
 		8C11885420D931C7008B970D /* ClanScOffc_WideBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C11884C20D931C6008B970D /* ClanScOffc_WideBook.ttf */; };
 		8C11885520D931C7008B970D /* ClanScOffc_WideBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C11884D20D931C6008B970D /* ClanScOffc_WideBold.ttf */; };
@@ -18,7 +19,6 @@
 		8CEBA76D20D7D43600F6A039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEBA76C20D7D43600F6A039 /* AppDelegate.swift */; };
 		8CEBA76F20D7D43600F6A039 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEBA76E20D7D43600F6A039 /* ViewController.swift */; };
 		8CEBA77220D7D43600F6A039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEBA77020D7D43600F6A039 /* Main.storyboard */; };
-		8CEBA77420D7D43900F6A039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEBA77320D7D43900F6A039 /* Assets.xcassets */; };
 		8CEBA77720D7D43900F6A039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEBA77520D7D43900F6A039 /* LaunchScreen.storyboard */; };
 		8CEBA78220D7D43900F6A039 /* DemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEBA78120D7D43900F6A039 /* DemoProjectTests.swift */; };
 		8CEBA78D20D7D43900F6A039 /* DemoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEBA78C20D7D43900F6A039 /* DemoProjectUITests.swift */; };
@@ -42,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C0E09D120DA4E7300462DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C11884B20D931C6008B970D /* ClanOffc_WideMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ClanOffc_WideMedium.ttf; sourceTree = "<group>"; };
 		8C11884C20D931C6008B970D /* ClanScOffc_WideBook.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ClanScOffc_WideBook.ttf; sourceTree = "<group>"; };
 		8C11884D20D931C6008B970D /* ClanScOffc_WideBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ClanScOffc_WideBold.ttf; sourceTree = "<group>"; };
@@ -54,7 +55,6 @@
 		8CEBA76C20D7D43600F6A039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CEBA76E20D7D43600F6A039 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8CEBA77120D7D43600F6A039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8CEBA77320D7D43900F6A039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CEBA77620D7D43900F6A039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CEBA77820D7D43900F6A039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CEBA77D20D7D43900F6A039 /* DemoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,7 +132,7 @@
 				8CEBA76C20D7D43600F6A039 /* AppDelegate.swift */,
 				8CEBA76E20D7D43600F6A039 /* ViewController.swift */,
 				8CEBA77020D7D43600F6A039 /* Main.storyboard */,
-				8CEBA77320D7D43900F6A039 /* Assets.xcassets */,
+				8C0E09D120DA4E7300462DDA /* Assets.xcassets */,
 				8CEBA77520D7D43900F6A039 /* LaunchScreen.storyboard */,
 				8CEBA77820D7D43900F6A039 /* Info.plist */,
 			);
@@ -263,12 +263,12 @@
 			files = (
 				8C11885720D931C7008B970D /* ClanScOffc_WideMedium.ttf in Resources */,
 				8C11885520D931C7008B970D /* ClanScOffc_WideBold.ttf in Resources */,
+				8C0E09D220DA4E7300462DDA /* Assets.xcassets in Resources */,
 				8C11885320D931C7008B970D /* ClanOffc_WideMedium.ttf in Resources */,
 				8CEBA77720D7D43900F6A039 /* LaunchScreen.storyboard in Resources */,
 				8C11885820D931C7008B970D /* ClanOffc_WideBook.ttf in Resources */,
 				8C11885420D931C7008B970D /* ClanScOffc_WideBook.ttf in Resources */,
 				8C11885A20D931C7008B970D /* ClanOffc_WideBold.ttf in Resources */,
-				8CEBA77420D7D43900F6A039 /* Assets.xcassets in Resources */,
 				8C11885920D931C7008B970D /* CLANPRO-BOLD.TTF in Resources */,
 				8C11885620D931C7008B970D /* clanpro_bold.ttf in Resources */,
 				8CEBA77220D7D43600F6A039 /* Main.storyboard in Resources */,
