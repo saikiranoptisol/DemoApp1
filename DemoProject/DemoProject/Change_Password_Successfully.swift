@@ -21,6 +21,12 @@ class Change_Password_Successfully: UIViewController {
         super.viewWillAppear(true)
         viewToMask.layer.masksToBounds = true
     }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            self.dismiss(animated: false, completion: nil)
+        }
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

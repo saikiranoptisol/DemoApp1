@@ -26,6 +26,9 @@ class Change_Password: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         viewToMask.layer.masksToBounds = true
+        oldPassword_field.text = nil
+        newPassword_field.text = nil
+        confirmPassword_field.text = nil
     }
     func isPasswordValid(password : String) -> Bool{
         let passwordTest = NSPredicate(format: "SELF MATCHES %@", "^(?=.*[a-z])(?=.*[$@$#!%*?&])[A-Za-z\\d$@$#!%*?&]{8,}")
