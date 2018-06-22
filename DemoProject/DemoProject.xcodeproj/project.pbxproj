@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		8C0E09D220DA4E7300462DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0E09D120DA4E7300462DDA /* Assets.xcassets */; };
+		8C0E09D420DB8A6A00462DDA /* Forgot-Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0E09D320DB8A6A00462DDA /* Forgot-Password.swift */; };
+		8C0E09D620DB8A9200462DDA /* Forgot-Password-Invalidmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0E09D520DB8A9200462DDA /* Forgot-Password-Invalidmail.swift */; };
+		8C0E09D820DB8AEC00462DDA /* Forgot_Password_Success.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0E09D720DB8AEC00462DDA /* Forgot_Password_Success.swift */; };
+		8C0E09DA20DB8B8F00462DDA /* Change_Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0E09D920DB8B8F00462DDA /* Change_Password.swift */; };
+		8C0E09DC20DB8BA500462DDA /* Change_Password_Successfully.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0E09DB20DB8BA500462DDA /* Change_Password_Successfully.swift */; };
 		8C11885320D931C7008B970D /* ClanOffc_WideMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C11884B20D931C6008B970D /* ClanOffc_WideMedium.ttf */; };
 		8C11885420D931C7008B970D /* ClanScOffc_WideBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C11884C20D931C6008B970D /* ClanScOffc_WideBook.ttf */; };
 		8C11885520D931C7008B970D /* ClanScOffc_WideBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C11884D20D931C6008B970D /* ClanScOffc_WideBold.ttf */; };
@@ -43,6 +48,11 @@
 
 /* Begin PBXFileReference section */
 		8C0E09D120DA4E7300462DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C0E09D320DB8A6A00462DDA /* Forgot-Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Forgot-Password.swift"; sourceTree = "<group>"; };
+		8C0E09D520DB8A9200462DDA /* Forgot-Password-Invalidmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Forgot-Password-Invalidmail.swift"; sourceTree = "<group>"; };
+		8C0E09D720DB8AEC00462DDA /* Forgot_Password_Success.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forgot_Password_Success.swift; sourceTree = "<group>"; };
+		8C0E09D920DB8B8F00462DDA /* Change_Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Change_Password.swift; sourceTree = "<group>"; };
+		8C0E09DB20DB8BA500462DDA /* Change_Password_Successfully.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Change_Password_Successfully.swift; sourceTree = "<group>"; };
 		8C11884B20D931C6008B970D /* ClanOffc_WideMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ClanOffc_WideMedium.ttf; sourceTree = "<group>"; };
 		8C11884C20D931C6008B970D /* ClanScOffc_WideBook.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ClanScOffc_WideBook.ttf; sourceTree = "<group>"; };
 		8C11884D20D931C6008B970D /* ClanScOffc_WideBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ClanScOffc_WideBold.ttf; sourceTree = "<group>"; };
@@ -131,6 +141,11 @@
 			children = (
 				8CEBA76C20D7D43600F6A039 /* AppDelegate.swift */,
 				8CEBA76E20D7D43600F6A039 /* ViewController.swift */,
+				8C0E09D320DB8A6A00462DDA /* Forgot-Password.swift */,
+				8C0E09D520DB8A9200462DDA /* Forgot-Password-Invalidmail.swift */,
+				8C0E09D720DB8AEC00462DDA /* Forgot_Password_Success.swift */,
+				8C0E09D920DB8B8F00462DDA /* Change_Password.swift */,
+				8C0E09DB20DB8BA500462DDA /* Change_Password_Successfully.swift */,
 				8CEBA77020D7D43600F6A039 /* Main.storyboard */,
 				8C0E09D120DA4E7300462DDA /* Assets.xcassets */,
 				8CEBA77520D7D43900F6A039 /* LaunchScreen.storyboard */,
@@ -296,7 +311,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C0E09D620DB8A9200462DDA /* Forgot-Password-Invalidmail.swift in Sources */,
+				8C0E09D420DB8A6A00462DDA /* Forgot-Password.swift in Sources */,
+				8C0E09DC20DB8BA500462DDA /* Change_Password_Successfully.swift in Sources */,
+				8C0E09D820DB8AEC00462DDA /* Forgot_Password_Success.swift in Sources */,
 				8CEBA76F20D7D43600F6A039 /* ViewController.swift in Sources */,
+				8C0E09DA20DB8B8F00462DDA /* Change_Password.swift in Sources */,
 				8CEBA76D20D7D43600F6A039 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
